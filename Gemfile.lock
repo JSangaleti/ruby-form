@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.22.2)
+    sqlite3 (1.4.2)
+    webrick (1.8.1)
+
+PLATFORMS
+  ruby
+  x86_64-linux-gnu
+
+DEPENDENCIES
+  minitest (~> 5.0)
+  sqlite3 (>= 1.4, < 3)
+  webrick (~> 1.8)
+
+RUBY VERSION
+   ruby 3.2.3p157
+
+BUNDLED WITH
+   2.4.20
