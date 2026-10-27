@@ -2,9 +2,9 @@
 # frozen_string_literal: true
 
 require 'fileutils'
-require_relative '../classes/curso'
-require_relative '../classes/disciplina'
-require_relative '../classes/aluno'
+require_relative '../models/curso'
+require_relative '../models/disciplina'
+require_relative '../models/aluno'
 
 path = ENV.fetch('RUBIFORM_DB', File.expand_path('../db/demo.sqlite3', __dir__))
 FileUtils.mkdir_p(File.dirname(path)) unless path == ':memory:'
